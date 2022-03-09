@@ -1,0 +1,420 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    /* background-color: rebeccapurple; */
+}
+.a{
+    text-decoration: none;
+}
+.nav-links ul li a{ 
+    text-decoration: none;
+    color: black;
+   font-size: 11PX;
+   font-family: Righteous;
+
+}
+.menu-nav-links ul li a{ 
+    text-decoration: none;
+    color: black;
+   font-size: 11PX;
+   font-family: Righteous;
+
+}
+.nav-links ul li{ 
+    list-style-type: none;
+    margin: 0 15px;
+    padding: 0px 5px 5px 6px;
+    text-align: center;
+    /* border: 1px solid black; */
+    /* background-color:  gray; */
+    
+}
+.menu-nav-links ul li{ 
+    width: 100%;
+    list-style-type: none;
+    margin: 10px 0px;
+    /* text-align: center; */
+    padding: 0px 5px 5px 6px;
+    
+}
+.nav-links ul { 
+
+    /* border: 1px solid red; */
+    
+  display: flex;
+  justify-content: right;
+  
+    
+}
+.menu-nav-links ul { 
+    /* border: 1px solid black; */
+    
+   padding-right: 15px;
+    /* display: flex; */
+    
+
+   
+}
+#Onpage{
+
+   border-bottom: 1px solid gray;
+}
+
+
+.nav-links{ 
+    padding-top:12px ;
+
+}
+@keyframes logo {
+    0%{
+        color: rgb(196, 12, 12);
+     
+    }
+    50%{
+        color: yellow;
+        
+    
+    }
+    100%{
+        /* border: 1px dashed black; */
+        color: blue;
+
+    }
+}
+
+.logo-sm{
+  
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: logo 3s ease-in infinite alternate-reverse;
+}
+.screen-sm{
+   
+    width: 100%;
+    text-align: right;
+    padding-top:10px ;
+    display: flex;
+
+    justify-content: right;
+    /* border: 1px solid red; */
+    display: none;
+}
+
+#show-hide{
+    display: none;
+}
+@media screen and (min-width:800px){
+    #show-hide{
+        display: none;
+    }
+    main{
+        height: 1400px;
+        /* border: 1px solid red; */
+        /* overflow:hidden; */
+    }
+  
+}
+
+
+@media screen and (max-width:800px){
+    main{
+        height: 1800px;
+    }
+    .banner{
+        position: relative;
+        top: -700px;
+        width: 100%;
+        height: 400px;
+    }
+    .photo{
+        /* margin: 0px; */
+        max-width: 190px; max-height: 190px;
+        margin-top: -100px;
+    }
+    .set{
+        position: relative;
+        top: -100px;
+    }
+
+    
+
+.nav-links{
+    display: none;
+}
+.flex-sm{
+    display: flex; 
+    flex-direction: column-reverse;
+
+}
+.position{
+    position: relative;
+    top: -500px;
+}
+.about{
+    width: 70px;
+    /* height: 15px; */
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+.intro-text{
+    /* text-align: center; */
+    /* border: 1px solid black; */
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.screen-sm{
+    display: block;
+    width: 100%;
+    text-align: right;
+    padding-top:14px ;
+    display: flex;
+
+    justify-content: right;
+    /* border: 1px solid red; */
+}
+
+#show-hide{
+    /* display: block; */
+    position: absolute;
+    z-index: 122;
+}
+
+}
+
+.menu{
+
+}
+#first{
+    width: 26px;
+    height: 3.5px;
+    background-color: black;
+    border-radius: 2px;
+    
+}
+#second{
+    width: 26px;
+    height: 3.5px;
+    background-color: black;
+    border-radius: 2px;
+    margin: 3.3px 0;
+}
+#third{
+    width: 26px;
+    height: 3.5px;
+    background-color: black;
+    border-radius: 2px;
+    display: rl
+}
+
+.slide-bar{
+    width: 50%;
+    height: 100vh;
+    background-color: white;
+    float: right;
+    padding: 10px;
+    /* display: none; */
+    border: 0.5px solid lightblue;
+
+
+}
+
+
+.menu-nav-links {
+    text-align: center  ;
+}
+
+.banner{
+    /* width: 100%; */
+    /* height: 200px; */
+    /* background-image: url("background-img.png"); */
+    position: relative;
+    top: -500px;
+    /* z-index: 999999; */
+}
+.z-index{
+    /* position: fixed; */
+    z-index: 1;
+}
+@keyframes firstAni
+ {
+    from{
+        position: relative;
+        margin-left: -200px;
+    }
+    to{
+        position: relative;
+        margin-left: 0px;
+    }
+}
+
+.intro-text{
+    width: 100%;
+    /* min-height: 200px ; */
+    padding: 60px 70px;
+    font-family: Righteous;
+    animation: firstAni 2s ease-in 1  alternate;
+}
+.about{
+    border: 1px solid blue;
+    max-width: 110px;
+    font-size: 11px;
+    text-align: center;
+    padding: 4px 0px;
+    border-radius: 50px;
+    box-shadow: .1px 1px 10px .3px blue;
+    background-color: blue;
+    color: white;
+
+}
+.social-media{
+    padding-top: 10px;
+    display: flex;
+}
+.social-item{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    box-shadow: 1px 0px 10px .5px blue;
+background-color: black;
+    /* padding:  0 10px; */
+    margin: 0 5px;
+    border-radius: 50%;
+    /* color: red; */
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   cursor: pointer;
+
+}
+
+.icons{
+    /* background-color: blue; */
+    color: aqua;
+
+}
+@keyframes firstAni2
+ {
+    from{
+        position: relative;
+        border: 2px solid aqua;
+        transform: scale(1);
+    }
+    to{
+        position: relative;
+        /* bottom: 10px; */
+        border: 2px solid white;
+        transform: scale(1.2);
+}
+ }
+.photo{
+    width: 280px; height: 280px;
+    margin: 50px 80px 50px 50px;
+    border: 2px solid blue;
+padding-top:50px ;
+    /* background-color: ; */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-image: linear-gradient(blue,aqua) ;
+    box-shadow: 1px 1px 8px 1px gray;
+    animation: firstAni2 2s ease-in  infinite alternate-reverse ;
+}
+
+.photo-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.position{
+    position: relative;
+    top: -380px;
+    
+}
+
+.aboutus{
+    width: 100%;height: 300px;
+    /* background-color: red/; */
+padding-top: -30px;
+    overflow: scroll;
+    font-family:Righteous;
+
+}
+@keyframes underli {
+    from{
+        width: 0px;
+        background-color: aqua;
+    }
+    to{
+        width: 160px;
+        background-color: blue;
+    }
+}
+.underline{
+    border-radius: 5px;
+animation: underli 2s ease-in-out  infinite alternate-reverse ;
+}
+
+.web-dev{
+font-family: Righteous;
+}
+
+.web-build{
+    /* margin: 30px 0; */
+    border-radius: 20px;
+    box-shadow: 1px 1px 8px 1px gray;
+    /* border: 1px solid blue; */
+}
+
+.position-footer{
+    border: 1px solid black;
+    background-color: black;
+    position: relative;
+    width: 100%;
+   /* top: 1400px; */
+    /* right: 4.4%; */
+    /* bottom: 400px; */
+    display: flex;
+   
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+@keyframes ani2 {
+    from{
+        transform: scale(0);
+        opacity: 0%;
+    }
+    to{
+        transform: scale(1);
+        opacity: 100%;
+    }
+}
+
+.ani2{
+    animation: ani2 2s ease-in-out 1  alternate ;
+
+}
+
+.footer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family:Righteous;
+}
